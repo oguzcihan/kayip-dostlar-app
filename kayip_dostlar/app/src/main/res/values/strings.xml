@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Kayıp Dostlar</string>
+    <string name="navhome">Anasayfa</string>
+    <string name="navnotf">Bildirimler</string>
+    <string name="navsearch">Ara</string>
+    <string name="navadvert">İlanlarım</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="nav_anasayfa">Anasayfa</string>
+    <string name="nav_bildirim">Bildirimler</string>
+    <string name="nav_ilan">İlanlarım</string>
+    <string name="nav_ara">Ara</string>
+    <string name="navcikis">Çıkış</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Şifre</string>
+    <string name="action_sign_in">Giriş veya Kayıt Ol</string>
+    <string name="action_sign_in_short">Giriş Yap</string>
+    <string name="welcome">"Hoşgeldiniz !"</string>
+    <string name="invalid_username">Geçersiz kullanıcı adı !</string>
+    <string name="invalid_password">Şifre 5 karakterden büyük olmalı</string>
+    <string name="login_failed">"Giriş Hatalı"</string>
+    <string name="login">GİRİŞ YAP</string>
+    <string name="sign_up">Hemen Üye Ol</string>
+    <string name="not_a_member_yet">Beni hatırla</string>
+    <string name="login_with_your_account">login_with_your_account</string>
+    <string name="ilanNo">İlan Numarası:</string>
+
+    <!--ACCOUNT STRING-->
+    <string name="isim">Ad</string>
+    <string name="soyisim">Soyad</string>
+    <string name="tel">Telefon Numarası Giriniz</string>
+    <string name="mail">Mail Adresi</string>
+    <string name="kullaniciAdi">Kullanıcı Adı Giriniz</string>
+    <string name="password">Sifre</string>
+    <string name="sifreunuttum">Sifremi Unuttum</string>
+    <string name="yada">YA DA</string>
+
+
+    <!--Ilan Ver String-->
+    <string name="fotosec">Fotoğraf Seç</string>
+    <string name="kayipIsim">  Kayıp Hayvan İsmi</string>
+    <string name="yas">Yaş</string>
+    <string name="ceptel">Cep Telefonu</string>
+    <string name="baslik">Başlık</string>
+    <string name="adres">Adres</string>
+    <string name="detay">Detay/Açıklama</string>
+    <string name="upload">YÜKLE</string>
+    <string name="title_activity_ilanlarim">Ilanlarim</string>
+    <string name="hayvanisim">Hayvan İsmi</string>
+    <string name="telefon">Telefon</string>
+
+    <!--    ilanlarimi goruntule-->
+    <string name="ilangoruntule">İlan Görüntüle</string>
+    <string name="sifremidegistir">Şifremi Değiştir</string>
+    <string name="sifredegisikligi">Şifre Değişikliği</string>
+    <string name="hesapislemleri">Hesap İşlemleri</string>
+    <string name="hesabisil">Hesabı Sil</string>
+    <string name="kayipdostlar">Kayıp Dostlar</string>
+    <string name="tarihtenberiuye">21 Nisan Tarihinden Veri Üye</string>
+    <string name="konum">Konum</string>
+
+    <!--  Şifre Değişikliği -->
+    <string name="sifresayfasısifredegisikligi">Şifre Değişikliği</string>
+    <string name="sifreaciklama">Kayıp Dostlar hesabınızda kullanacağınız yeni şifrenizi belirleyin</string>
+    <string name="mevcutsifre">Mevcut Şifre</string>
+    <string name="yenisifre">Yeni Şifre</string>
+    <string name="yenisifretekrar">Yeni Şifre (Tekrar)</string>
+    <string name="kaydet">Kaydet</string>
+
+    <!--  Ayarlar Layout -->
+    <string name="Profil">Profil Bilgileri</string>
+    <string name="Gorsel">Görsel</string>
+    <string name="Isim">İsim</string>
+    <string name="isimsoyisim">Harun Aşık</string>
+    <string name="ayarlarEPosta">E-Posta</string>
+    <string name="ayarlarornekeposta">harun.hp@hotmail.com</string>
+    <string name="ayarlarkonum">Konum</string>
+    <string name="ayarlarkonumornek">Bolu , TR</string>
+    <string name="ayarlarcikis">Çıkış Yap</string>
+    <string name="ayarlarprofiliduzenle">Profili Düzenle</string>
+    <string name="biyografi">Biyografi / Hakkımda </string>
+    <string name="sehir">Şehir</string>
+    <string name="bulundu">Bulundu olarak işaretle</string>
+    <string name="kayipdostara">Kayıp Dost Ara</string>
+
+    <!--  ilanı Düzenle  Layout -->
+    <string name="ilanbasliginiduzenle">İlan Başlığınızı Düzenle</string>
+    <string name="aciklamaduzenle">İlan Açıklamasını Düzenle</string>
+    <string name="hayvanismiduzenle">Kayıp Hayvan İsmi Düzenle</string>
+    <string name="yasdegis">Yaşı Değiştir</string>
+    <string name="konumdegis">Konumu Değiştir</string>
+    <string name="telnodegis">Telefon Değiştir</string>
+    <string name="isaretle">Bulundu Olarak İşaretle</string>
+
+
+</resources>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="5dp">
+
+    <Button
+        android:id="@+id/btn_hesabsil"
+        android:layout_width="282dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="66dp"
+        android:background="@drawable/butonkenarlik"
+        android:text="@string/hesabisil"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonsifremidegistir" />
+
+    <ImageButton
+        android:id="@+id/imageButtonprofile"
+        style="@android:style/Widget.Material.Light.ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:scaleType="center"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewprofil"
+        android:layout_width="27dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="19dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonprofile"
+        android:src="@drawable/person" />
+
+    <Button
+        android:id="@+id/buttonilanlarigoruntule"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/butonkenarlik"
+        android:text="@string/ilangoruntule"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewkonum" />
+
+    <Button
+        android:id="@+id/buttonsifremidegistir"
+        android:layout_width="282dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="66dp"
+        android:background="@drawable/butonkenarlik"
+        android:text="@string/sifremidegistir"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewsifredegisikligi" />
+
+    <TextView
+        android:id="@+id/textViewtarihtenberiuye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:drawableStart="@drawable/takvim"
+        android:text="@string/tarihtenberiuye"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FF5722"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewisim" />
+
+    <TextView
+        android:id="@+id/textViewkonum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/konum"
+        android:text="@string/konum"
+        android:textAllCaps="true"
+        android:textColor="#FF5722"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewtarihtenberiuye" />
+
+    <TextView
+        android:id="@+id/textViewisim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="19dp"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/imageViewprofil"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonprofile" />
+
+    <TextView
+        android:id="@+id/textViewsifredegisikligi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/hesapislemleri"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="17dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonilanlarigoruntule" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="196dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonilanlarigoruntule" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="415dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="89dp"
+        android:background="@drawable/ic_alt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textViewkayipdostlar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="cursive"
+        android:text="@string/app_name"
+        android:textSize="45dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/view5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtprofilekullaniciadi"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="34dp"
+            android:layout_height="37dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="50dp"
+
+            android:src="@drawable/ic_baseline_close_24" />
+
+        <ImageView
+            android:id="@+id/img_foto"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-50dp"
+
+            android:src="@drawable/ic_baseline_image_24" />
+
+        <TextView
+            android:id="@+id/uri_path"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/real_path"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:hint="@string/ilanNo"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/randomNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-12dp"
+                android:layout_marginTop="10dp"
+                android:hint="no"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/baslik"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_item"
+            android:drawableStart="@drawable/baslik"
+            android:hint="@string/baslik"
+            android:maxLength="50"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edit_isim"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_item"
+            android:drawableStart="@drawable/uzgunsurat"
+            android:ems="10"
+            android:hint="@string/kayipIsim"
+            android:maxLength="50" />
+
+
+        <EditText
+            android:id="@+id/edit_yas"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_item"
+            android:drawableStart="@drawable/yas"
+            android:ems="10"
+            android:hint="@string/yas"
+            android:inputType="number"
+
+            android:maxLength="2" />
+
+
+        <EditText
+            android:id="@+id/edit_tel"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_item"
+            android:drawableStart="@drawable/telefon"
+            android:hint="@string/ceptel"
+            android:inputType="phone"
+            android:maxLength="11" />
+
+        <EditText
+            android:id="@+id/adres"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_item"
+            android:drawableStart="@drawable/adres"
+            android:hint="@string/adres"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edit_aciklama"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_item"
+            android:drawableStart="@drawable/detay"
+            android:hint="@string/detay"
+            android:inputType="textMultiLine"
+            android:maxLength="400" />
+
+        <Button
+            android:id="@+id/btn_yukle"
+            android:layout_width="201dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/butonkenarlik"
+            android:text="@string/upload"
+            android:textColor="@color/white"
+            android:textSize="@dimen/acitivyt_ilanver_size" />
+
+        <TextView
+            android:id="@+id/txt_bulundu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/isaretle"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</ScrollView>

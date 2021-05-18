@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kayip_dostlar">
+
+<!--    AUTHOR: Oğuzhan Cihan
+                Yuşa Turan
+      Tüm Hakları Saklıdır-2021   -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Kayip_dostlar">
+        <activity android:name=".Pages.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Pages.IlanVer"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".Pages.SignUp"/>
+        <activity android:name=".MainActivity"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".Pages.DetailActivity" />
+        <activity android:name=".Pages.Profile"/>
+        <activity android:name=".Pages.Login"/>
+        <activity android:name=".Pages.SifreDegistirActivity"/>
+        <activity android:name=".Pages.AyarlarActivity"/>
+        <activity android:name=".Pages.ProfileDuzenle"/>
+        <activity android:name=".Pages.IlanduzenleActivity"/>
+    </application>
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+</manifest>

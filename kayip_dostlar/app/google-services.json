@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "212702468637",
+    "firebase_url": "https://kayip-dostlar-default-rtdb.firebaseio.com",
+    "project_id": "kayip-dostlar",
+    "storage_bucket": "kayip-dostlar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212702468637:android:c4e92bc280b7b0299504f4",
+        "android_client_info": {
+          "package_name": "com.kayip_dostlar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212702468637-0e0cn6khvp3me5mc9dqs5obdga9d6ara.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_zCYN2to1MsVTzy2GDceVo6bFyXWZWQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212702468637-0e0cn6khvp3me5mc9dqs5obdga9d6ara.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212702468637:android:d0057684ef8c44959504f4",
+        "android_client_info": {
+          "package_name": "com.mobileproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212702468637-0e0cn6khvp3me5mc9dqs5obdga9d6ara.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_zCYN2to1MsVTzy2GDceVo6bFyXWZWQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212702468637-0e0cn6khvp3me5mc9dqs5obdga9d6ara.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
